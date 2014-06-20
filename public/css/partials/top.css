@@ -1,0 +1,55 @@
+/* line 1, ../../sass/partials/top.scss */
+.top {
+  background: white;
+  height: 100px;
+  border-bottom: 1px #CBCBCB solid;
+}
+/* line 5, ../../sass/partials/top.scss */
+.top .center-top {
+  width: 67%;
+  margin: 0 auto;
+}
+/* line 8, ../../sass/partials/top.scss */
+.top .center-top .logo {
+  width: 37%;
+  height: 74px;
+  float: right;
+  background-image: url("/img/small-logo-in.png");
+  background-position: 35% 100%;
+  background-repeat: no-repeat;
+  background-size: 61%;
+}
+/* line 17, ../../sass/partials/top.scss */
+.top .center-top .search {
+  width: 53%;
+  background: #cacaca;
+  height: 55px;
+  border-radius: 13px;
+  float: left;
+  margin: 2% 6px 0px 9%;
+}
+/* line 24, ../../sass/partials/top.scss */
+.top .center-top .search .search-area {
+  width: 79%;
+  margin: 7px 8px 15px 9px;
+  height: 41px;
+  border-radius: 7px;
+  float: right;
+}
+/* line 31, ../../sass/partials/top.scss */
+.top .center-top .search .search-btn {
+  width: 17%;
+  background-color: #F06546;
+  background-image: url("/img/glass.png");
+  background-repeat: no-repeat;
+  background-position: 90%;
+  float: left;
+  margin-top: 8px;
+  margin-left: 8px;
+  height: 41px;
+  border-radius: 9px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  padding: 6px 27px;
+}

@@ -1,0 +1,179 @@
+.left-bar {
+	background-image: url("/img/bg-left.png");
+	background-repeat: repeat-x;
+	width: 14%;
+	min-height: 760px;
+    height: 100%;
+	left: 0;
+	margin-right :-5px;
+	display: inline-block;
+	vertical-align: top;
+}
+.home {
+	display:inline-block;
+	width: 70%;
+
+	.center {
+		margin: 0 auto;
+		width: 100%;
+		max-width: 775px;
+		.logo {
+			height: 130px;
+			background-image: url("/img/big-logo-HP.png");
+			background-position: 50% 55%;
+			background-repeat: no-repeat;
+			background-size: 46%;
+		}
+		.title {
+			color: #4A4A4A;
+			font-size: 40px;
+			font-family: topdoc-bold;
+		    text-align: center;
+		}
+		.about {
+			direction: rtl;
+			line-height: 28px;
+			font-size: 14px;
+			font-family: topdoc-regular;
+		}
+		.search {
+			margin: 2% auto;
+			background: #cacaca;
+			height: 55px;
+			border-radius: 13px;
+			.search-area {
+				width: 79%;
+				margin: 1% 1.2% 1.2% 1%;
+				height: 41px;
+				border-radius: 7px;
+				float: right;
+				direction: rtl;
+				font-family: topdoc-regular;
+				font-size: 15px;
+				padding-right: 1%;
+			}
+			.search-btn {
+				width: 17%;
+				background-color: #0d4684;
+				background-image: url("/img/glass.png");
+				background-repeat: no-repeat;
+				background-position: 90%;
+				float: left;
+				margin-top: 1%;
+				margin-left: 1.2%;
+				height: 41px;
+				border-radius: 9px;
+				font-size: 18px;
+				font-weight: bold;
+				color: white;
+				padding: 1% 5%;
+				cursor: pointer;
+			}
+		}
+		#tabs {
+		    margin: 26px auto 95px;
+		    direction: rtl;
+		    cursor: pointer;
+		}
+		ul {
+		    list-style: none;
+		    padding: 0;
+		    margin: 0;
+		}
+		li {
+		    float: right;
+			border-bottom-width: 0;
+			margin: 7px 0px 0px 8px;
+			padding: 8px 31px 4px 31px;
+			background-color: #bdbdbd;
+			color: white;
+			font-size: 15px;
+			font-family: topdoc-bold;
+			border-radius: 10px;
+			border-bottom-left-radius: 0px;
+			border-bottom-right-radius: 0px;
+		}
+		#mainView {
+			height: 250px;
+		    background-color: #ececec;
+		    border-radius: 11px;
+		    border-top-right-radius: 0px;
+			clear: both;
+			padding: 0 1em;
+			.abc {
+				display: inline-block;
+				margin-top: 20px;
+				a {
+					padding: 10px;
+					font-size: 15px;
+					font-family: topdoc-regular;
+					color: #8696B8;
+					cursor: pointer;
+				};
+			}
+			.current {
+				overflow: auto;
+				height: 200px;
+			}
+			td { 
+				padding: 23px 13px 7px 47px;
+				font-size: 14px;
+				font-family: topdoc-regular;
+			}
+		}
+		.active {
+		    background-color: #ececec;
+		    color: #000;
+		    opacity: 1;
+		    transition: 2s;
+		}
+	}
+}
+
+.animate {
+	-webkit-transition:0.5s linear all;
+	-moz-transition:0.5s linear all;
+	-o-transition:0.5s linear all;
+	transition:0s linear all;
+}
+
+.animate.ng-hide-add, 
+.animate.ng-hide-remove {
+	display: block!important;
+}
+
+.animate.ng-hide-remove.ng-hide-remove-active,
+.animate.ng-hide-add { 
+	width: 500px;
+}
+.animate.ng-hide-add.ng-hide-add-active,
+.animate.ng-hide-remove { 
+	width: 0;
+}
+
+
+.top {
+	margin-left: -19% !important;
+	margin-right: 37% !important;
+}
+.alogo{
+	float: right;
+	background-image: url("/img/doctor-logo.jpg");
+	background-position: 55% 0%;
+	background-repeat: no-repeat;
+	background-size: 68%;
+	width: 49%;
+	height: 81px;
+	cursor: pointer;
+	margin-right: -122px;
+}
+.hlogo {
+	  display: inline-block;
+  	background-image: url("/img/HP-bg.jpg");
+	  height :100%;
+	  margin: 0 auto;
+	 background-repeat: no-repeat;
+}
+.hcenter {
+		width:100%;
+}

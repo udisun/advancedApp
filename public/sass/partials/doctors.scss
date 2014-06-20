@@ -1,0 +1,123 @@
+.doctors {
+	.center-doctor {
+		margin: 0 auto;
+		width: 100%;
+		max-width: 975px;
+        .filter {
+        	direction: rtl;
+        	div {
+        		font-family: topdoc-bold;
+				font-size: 15px;
+				padding: 2%;
+        	}
+        	select {
+        		width: 225px;
+				border-radius: 9px;
+				height: 38px;
+				background: white;
+				border: 1px #CFCFCF solid;
+				background-image: url("/img/down-re-arrbl.png");
+				background-repeat: no-repeat;
+				background-position: 3% 56%;
+				-moz-appearance:none; /* Firefox */
+				text-indent: 1px;
+                text-overflow: '';
+				-webkit-appearance:none; /* Safari and Chrome */
+
+        	}
+        	.filter-HMO , .filter-addres ,  {
+                display: inline-block;
+               padding: 46px 0px;
+        	}
+        	.filter-HMO {
+        		display: inline-block;
+        		padding: 46px 30px;
+        	}
+        }
+        .title-doctor {
+        	color: #A1A1A1;
+        	float: right;
+			font-family: topdoc-bold;
+			font-size: 19px;
+        }
+        .results {
+        	direction: rtl;
+        	margin-top: 20px;
+        	.doctor {
+	        	padding: 33px 0px;
+	        	border-bottom: 1px #D1D1D1 solid;
+	        	img {
+	                display: inline-block;
+	                vertical-align: top;
+	                width: 11%;
+	        	}
+	        	.name-des {
+	        		display: inline-block;
+	        		width: 28%;
+					padding: 3px 23px;
+	        		.name {
+                       color: #A1A1A1;
+                       font-family: topdoc-bold;
+					   font-size: 18px;
+	        		}
+	        		.description {
+                       color: #49699A;
+                       font-size: 14px;
+					   font-family: topdoc-regular;
+					   margin-top: 5px;
+	        		}
+	        	}
+	        	.details {
+	        		display: inline-block;
+	        		vertical-align: top;
+	        		div , span {
+	        			display: inline-block;
+	        		}
+	        		.tit {
+						font-family: topdoc-bold;
+						font-size: 14px;
+						padding: 3px;
+	        		}
+	        		.bod {
+                       font-family:topdoc-regular;
+	        		}
+	        	}
+	        	.more { width: 238px; }        	
+	        	.address { width: 215px; }
+	        	.hours {
+	        		width: 125px;
+	        		display: inline-block;
+	        		vertical-align: top;
+	        		.tit {
+						font-family: topdoc-bold;
+						font-size: 14px;
+						padding: 3px;
+	        		}
+	        		.bod {
+                       font-family:topdoc-regular;
+	        		}
+	        	}
+	        }
+        }
+        .pagination {
+        	>.active>a {
+        		background: #0D468B;
+        		border-radius: 8px;
+        		cursor:pointer;
+        	}
+        	>.hover>a {
+         		border-radius: 8px;
+
+        	}
+        	margin: 20px 33%;
+        	li {
+        		a {
+        			border: none;
+        			padding: 8px 15px;
+        			cursor:pointer;
+        		}
+        	}
+        }
+        
+	}
+}

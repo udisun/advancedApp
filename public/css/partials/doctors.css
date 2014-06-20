@@ -1,0 +1,148 @@
+/* line 2, ../../sass/partials/doctors.scss */
+.doctors .center-doctor {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 975px;
+}
+/* line 6, ../../sass/partials/doctors.scss */
+.doctors .center-doctor .filter {
+  direction: rtl;
+}
+/* line 8, ../../sass/partials/doctors.scss */
+.doctors .center-doctor .filter div {
+  font-family: topdoc-bold;
+  font-size: 15px;
+  padding: 2%;
+}
+/* line 13, ../../sass/partials/doctors.scss */
+.doctors .center-doctor .filter select {
+  width: 225px;
+  border-radius: 9px;
+  height: 38px;
+  background: white;
+  border: 1px #CFCFCF solid;
+  background-image: url("/img/down-re-arrbl.png");
+  background-repeat: no-repeat;
+  background-position: 3% 56%;
+  -moz-appearance: none;
+  /* Firefox */
+  text-indent: 1px;
+  text-overflow: '';
+  -webkit-appearance: none;
+  /* Safari and Chrome */
+}
+/* line 28, ../../sass/partials/doctors.scss */
+.doctors .center-doctor .filter .filter-HMO, .doctors .center-doctor .filter .filter-addres {
+  display: inline-block;
+  padding: 46px 0px;
+}
+/* line 32, ../../sass/partials/doctors.scss */
+.doctors .center-doctor .filter .filter-HMO {
+  display: inline-block;
+  padding: 46px 30px;
+}
+/* line 37, ../../sass/partials/doctors.scss */
+.doctors .center-doctor .title-doctor {
+  color: #A1A1A1;
+  float: right;
+  font-family: topdoc-bold;
+  font-size: 19px;
+}
+/* line 43, ../../sass/partials/doctors.scss */
+.doctors .center-doctor .results {
+  direction: rtl;
+  margin-top: 20px;
+}
+/* line 46, ../../sass/partials/doctors.scss */
+.doctors .center-doctor .results .doctor {
+  padding: 33px 0px;
+  border-bottom: 1px #D1D1D1 solid;
+}
+/* line 49, ../../sass/partials/doctors.scss */
+.doctors .center-doctor .results .doctor img {
+  display: inline-block;
+  vertical-align: top;
+  width: 11%;
+}
+/* line 54, ../../sass/partials/doctors.scss */
+.doctors .center-doctor .results .doctor .name-des {
+  display: inline-block;
+  width: 28%;
+  padding: 3px 23px;
+}
+/* line 58, ../../sass/partials/doctors.scss */
+.doctors .center-doctor .results .doctor .name-des .name {
+  color: #A1A1A1;
+  font-family: topdoc-bold;
+  font-size: 18px;
+}
+/* line 63, ../../sass/partials/doctors.scss */
+.doctors .center-doctor .results .doctor .name-des .description {
+  color: #49699A;
+  font-size: 14px;
+  font-family: topdoc-regular;
+  margin-top: 5px;
+}
+/* line 70, ../../sass/partials/doctors.scss */
+.doctors .center-doctor .results .doctor .details {
+  display: inline-block;
+  vertical-align: top;
+}
+/* line 73, ../../sass/partials/doctors.scss */
+.doctors .center-doctor .results .doctor .details div, .doctors .center-doctor .results .doctor .details span {
+  display: inline-block;
+}
+/* line 76, ../../sass/partials/doctors.scss */
+.doctors .center-doctor .results .doctor .details .tit {
+  font-family: topdoc-bold;
+  font-size: 14px;
+  padding: 3px;
+}
+/* line 81, ../../sass/partials/doctors.scss */
+.doctors .center-doctor .results .doctor .details .bod {
+  font-family: topdoc-regular;
+}
+/* line 85, ../../sass/partials/doctors.scss */
+.doctors .center-doctor .results .doctor .more {
+  width: 238px;
+}
+/* line 86, ../../sass/partials/doctors.scss */
+.doctors .center-doctor .results .doctor .address {
+  width: 215px;
+}
+/* line 87, ../../sass/partials/doctors.scss */
+.doctors .center-doctor .results .doctor .hours {
+  width: 125px;
+  display: inline-block;
+  vertical-align: top;
+}
+/* line 91, ../../sass/partials/doctors.scss */
+.doctors .center-doctor .results .doctor .hours .tit {
+  font-family: topdoc-bold;
+  font-size: 14px;
+  padding: 3px;
+}
+/* line 96, ../../sass/partials/doctors.scss */
+.doctors .center-doctor .results .doctor .hours .bod {
+  font-family: topdoc-regular;
+}
+/* line 102, ../../sass/partials/doctors.scss */
+.doctors .center-doctor .pagination {
+  margin: 20px 33%;
+}
+/* line 103, ../../sass/partials/doctors.scss */
+.doctors .center-doctor .pagination > .active > a {
+  background: #0D468B;
+  border-radius: 8px;
+  cursor: pointer;
+}
+/* line 108, ../../sass/partials/doctors.scss */
+.doctors .center-doctor .pagination > .hover > a {
+  border-radius: 8px;
+}
+/* line 114, ../../sass/partials/doctors.scss */
+.doctors .center-doctor .pagination li a {
+  border: none;
+  padding: 8px 15px;
+  cursor: pointer;
+}

@@ -1,0 +1,30 @@
+<div class="second">
+    <div class="center-second">
+        <div class="category">
+            <span>התמחות</span>
+            <div class="list">
+              <div class="item" ng-repeat="r in expertises" ng-click="searchEl(r.id,1,0,r.id)">{{ r.title }}</div>
+                <!-- <div class="item" ng-repeat="r in expertises" ng-bind-html="r.name" ng-click="searchEl(r.id,1,0,r.id);" ng-class='{"item-selected"}' nng-model="expertise">
+                </div> -->
+            </div>
+        </div>
+        <div class="kav"></div>
+        <div class="category">
+            <span>בעיה רפואית</span>
+            <div class="list">
+                <div class="item" ng-repeat="r in medicalProblems  track by $index " ng-bind-html="r.name | searchfilter:global.toSearch" ng-click="setMod(r.tid);searchEl(r.tid,2);global.selectedIndex[1]=$index " ng-show="r.parents[0]==expertise" ng-class='{"item-selected":global.selectedIndex[1] ==$index}' ng-model="medicalProblem">
+                    {{r.name}}
+                </div>
+            </div>
+        </div>
+        <div class="kav"></div>
+        <div class="category">
+            <span>טיפול</span>
+            <div class="list">
+                <div class="item" ng-repeat="r in listTreatments1 | filter:global.toSearch track by $index" ng-bind-html="r | searchfilter:global.toSearch" ng-click="searchEl(r,1,2);global.selectedIndex[2]=$index" ng-class='{"item-selected":global.selectedIndex[2] ==$index}' ng-model="treatment">
+                    {{r}}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

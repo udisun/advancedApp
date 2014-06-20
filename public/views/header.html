@@ -1,0 +1,23 @@
+<div ng-init="init()" >
+    <div ng-class={"left-bar":slide}></div>
+    <div class="home" ng-class="{hlogo:slide ,hcenter:!slide}">
+        <div class="center">
+            <div collapse="!slide">
+                <div class="logo"></div>
+                <div class="title">רופאים שהרופאים בוחרים</div>
+                <div class="about">כאן  תוכל למצוא את הרופא הטוב ביותר עבור הצרכים שלך,
+                 אפשר לחפש על פי בעיה רפואית, התמחות הרופא , טיפול רפואי , מיקום הרופא.
+                 אנא בחר באחת מהאפשריות הבאות כדי לחפש את הרופא המתאים לך.</div>
+            </div>
+
+
+
+            <div id="se" class="alogo" ng-show="!slide" ng-click="changeSlide();search()" ng-class="{animate:!slide}"></div>
+            <div class="search"  ng-class={"top":!slide}>
+                <input type="text" class="search-area" placeholder="הכנס מילת חיפוש (מחלה/שם רופא/סוג טיפול...)" ng-model="global.toSearch" ng-change="goto()">
+                <div class="search-btn" ng-click="changeSlidebySearch();search(global.toSearch)">חפש</div>
+            </div>
+
+        </div>
+    </div>
+</div>

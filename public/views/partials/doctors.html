@@ -1,0 +1,70 @@
+<div class="doctors">
+    <div class="center-doctor"><!-- {{doctors}} -->
+        <div class="filter">
+            <!-- <div class="filter-addres">
+                <div>חפוש לפי אזור / עיר מגורים</div>
+                <select data-ng-options="city for city in cities" data-ng-model="global.selectedCity"></select>
+            </div> -->
+            <div class="filter-HMO">
+                <div>קופת חולים</div>
+                <select>
+                    <option>כללית</option>
+                    <option>מכבי</option>
+                    <option>מאוחדת</option>
+                    <option>לאומית</option>
+                </select>
+            </div>
+        </div>
+        <!-- <div ng-show="doctorsLength" class="title-doctor">נמצאו {{doctorsLength}} בהתמחות {{par_name}} - {{sub_name}}</div>
+        <br/> -->
+        <div class="results">
+
+            <div data-ng-repeat="doc in doctors" class="doctor" >
+              <div class="name">{{ doc.name }}</div>
+               <!-- <img src="/img/photo.jpg">
+                <div class="name-des">
+                    <div class="name">
+                    {{docName(doc._source)}}
+                    </div>
+                    <div class="description">{{doc._source.field_description}}</div>
+                </div>
+                <div class="more details">
+                    <div class="tit">תחום עיסוק:</div>
+                    <span class="bod">{{sub_name}}</span>
+                    <br/>
+                    <div class="tit">מומחיות:</div>
+                    <span class="bod">{{par_name}}</span>
+                    <br/>
+                    <div class="tit">שפות שירות:</div>
+                    <div data-ng-repeat="r in doc._source.field_languages">{{doc._source.field_languages}}
+                        <span class="bod">{{r}}</span>
+                    </div>
+
+                </div>
+                <div class="address details">
+                    <div class="tit">מרפאה:</div>
+                    <span class="bod">{{r.name}}</span>
+                    <br/>
+                    <div class="tit">כתובת:</div>
+                    <span class="bod">{{r.name}}</span>
+                    <br/>
+                    <span class="bod">{{r.name}}</span>
+                    <br/>
+                    <div class="tit">טלפון:</div>
+                    <span class="bod">{{r.name}}</span>
+                    <br/>
+                    <div class="tit">פקס:</div>
+                    <span class="bod">{{r.name}}</span>
+                </div>
+                <div class="hours">
+                    <div class="tit">שעות קבלה:</div>
+                    <span class="bod"></span>
+                </div> -->
+            </div>
+        </div>
+        <!-- <pagination ng-show="doctorsLength" total-items="doctorsLength" page="currentPage" items-per-page="pageSize" class="pagination-sm" previous-text="&lsaquo;" next-text="&rsaquo;" first-text="&laquo;" last-text="&raquo;"></pagination> -->
+
+        <div>&nbsp;</div>
+        <div>&nbsp;</div>
+    </div>
+</div>

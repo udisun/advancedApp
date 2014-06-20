@@ -1,0 +1,60 @@
+/* line 1, ../../sass/partials/contact.scss */
+.modal-content {
+  border: 11px #0D4689 solid;
+  border-radius: 28px;
+}
+/* line 5, ../../sass/partials/contact.scss */
+.modal-content .contact .title {
+  float: right;
+  font-size: 32px;
+  margin: 21px 172px;
+  font-family: topdoc-bold;
+  color: #0D4689;
+}
+/* line 12, ../../sass/partials/contact.scss */
+.modal-content .contact .title, .modal-content .contact .cancel {
+  display: inline-block;
+}
+/* line 15, ../../sass/partials/contact.scss */
+.modal-content .contact .cancel {
+  background-image: url("/img/cc.png");
+  width: 80px;
+  height: 88px;
+  background-size: 89%;
+  background-repeat: no-repeat;
+  margin-top: -31px;
+  margin-left: -23px;
+}
+/* line 25, ../../sass/partials/contact.scss */
+.modal-content .contact form {
+  direction: rtl;
+}
+/* line 28, ../../sass/partials/contact.scss */
+.modal-content .contact form .form-group .submit {
+  width: 131px;
+  height: 51px;
+  float: left;
+  margin-left: 35px;
+  background: white;
+  border: 2px #0D4689 solid;
+  font-size: 20px;
+  font-family: topdoc-bold;
+  border-radius: 20px;
+  margin-top: 13px;
+}
+/* line 41, ../../sass/partials/contact.scss */
+.modal-content .contact form label, .modal-content .contact form .edit {
+  display: inline-block;
+}
+/* line 44, ../../sass/partials/contact.scss */
+.modal-content .contact form label {
+  width: 29%;
+  margin-right: 114px;
+  font-size: 15px;
+  font-family: topdor-reg;
+  color: #0D4689;
+}
+/* line 52, ../../sass/partials/contact.scss */
+.modal-content .contact form .edit .form-control {
+  direction: ltr;
+}

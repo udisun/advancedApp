@@ -1,0 +1,33 @@
+/* line 1, ../sass/footer.scss */
+.footer {
+  background: #0D4689;
+  height: 53px;
+}
+/* line 4, ../sass/footer.scss */
+.footer .footer-center {
+  width: 70%;
+  margin: 0 auto;
+  font-size: 13px;
+  font-family: topdoc-regular;
+}
+/* line 9, ../sass/footer.scss */
+.footer .footer-center ul {
+  float: right;
+  direction: rtl;
+}
+/* line 13, ../sass/footer.scss */
+.footer .footer-center li {
+  display: inline-block;
+  color: white;
+  padding: 17px 14px 0px 14px;
+  cursor: pointer;
+}
+/* line 18, ../sass/footer.scss */
+.footer .footer-center li a {
+  color: white;
+}
+/* line 22, ../sass/footer.scss */
+.footer .footer-center .side {
+  color: white;
+  padding: 17px 10px 6px 66px;
+}

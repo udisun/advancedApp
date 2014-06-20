@@ -1,0 +1,27 @@
+.footer {
+	background:#0D4689;
+	height: 53px;
+	.footer-center {
+		width: 70%;
+	    margin: 0 auto;
+	    font-size: 13px;
+        font-family: topdoc-regular;
+		ul { 
+			float:right;
+			direction: rtl;
+		}
+		li { 
+			display:inline-block;
+			color: white;
+			padding: 17px 14px 0px 14px;
+			cursor: pointer;
+			a  {
+				color: white;
+			}
+		}
+		.side {
+			color:white;
+            padding: 17px 10px 6px 66px;
+		}
+	}
+}

@@ -1,0 +1,208 @@
+/* line 1, ../sass/header.scss */
+.left-bar {
+  background-image: url("/img/bg-left.png");
+  background-repeat: repeat-x;
+  width: 14%;
+  min-height: 760px;
+  height: 100%;
+  left: 0;
+  margin-right: -5px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* line 12, ../sass/header.scss */
+.home {
+  display: inline-block;
+  width: 70%;
+}
+/* line 16, ../sass/header.scss */
+.home .center {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 775px;
+}
+/* line 20, ../sass/header.scss */
+.home .center .logo {
+  height: 130px;
+  background-image: url("/img/big-logo-HP.png");
+  background-position: 50% 55%;
+  background-repeat: no-repeat;
+  background-size: 46%;
+}
+/* line 27, ../sass/header.scss */
+.home .center .title {
+  color: #4A4A4A;
+  font-size: 40px;
+  font-family: topdoc-bold;
+  text-align: center;
+}
+/* line 33, ../sass/header.scss */
+.home .center .about {
+  direction: rtl;
+  line-height: 28px;
+  font-size: 14px;
+  font-family: topdoc-regular;
+}
+/* line 39, ../sass/header.scss */
+.home .center .search {
+  margin: 2% auto;
+  background: #cacaca;
+  height: 55px;
+  border-radius: 13px;
+}
+/* line 44, ../sass/header.scss */
+.home .center .search .search-area {
+  width: 79%;
+  margin: 1% 1.2% 1.2% 1%;
+  height: 41px;
+  border-radius: 7px;
+  float: right;
+  direction: rtl;
+  font-family: topdoc-regular;
+  font-size: 15px;
+  padding-right: 1%;
+}
+/* line 55, ../sass/header.scss */
+.home .center .search .search-btn {
+  width: 17%;
+  background-color: #0d4684;
+  background-image: url("/img/glass.png");
+  background-repeat: no-repeat;
+  background-position: 90%;
+  float: left;
+  margin-top: 1%;
+  margin-left: 1.2%;
+  height: 41px;
+  border-radius: 9px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  padding: 1% 5%;
+  cursor: pointer;
+}
+/* line 73, ../sass/header.scss */
+.home .center #tabs {
+  margin: 26px auto 95px;
+  direction: rtl;
+  cursor: pointer;
+}
+/* line 78, ../sass/header.scss */
+.home .center ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+/* line 83, ../sass/header.scss */
+.home .center li {
+  float: right;
+  border-bottom-width: 0;
+  margin: 7px 0px 0px 8px;
+  padding: 8px 31px 4px 31px;
+  background-color: #bdbdbd;
+  color: white;
+  font-size: 15px;
+  font-family: topdoc-bold;
+  border-radius: 10px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+/* line 96, ../sass/header.scss */
+.home .center #mainView {
+  height: 250px;
+  background-color: #ececec;
+  border-radius: 11px;
+  border-top-right-radius: 0px;
+  clear: both;
+  padding: 0 1em;
+}
+/* line 103, ../sass/header.scss */
+.home .center #mainView .abc {
+  display: inline-block;
+  margin-top: 20px;
+}
+/* line 106, ../sass/header.scss */
+.home .center #mainView .abc a {
+  padding: 10px;
+  font-size: 15px;
+  font-family: topdoc-regular;
+  color: #8696B8;
+  cursor: pointer;
+}
+/* line 114, ../sass/header.scss */
+.home .center #mainView .current {
+  overflow: auto;
+  height: 200px;
+}
+/* line 118, ../sass/header.scss */
+.home .center #mainView td {
+  padding: 23px 13px 7px 47px;
+  font-size: 14px;
+  font-family: topdoc-regular;
+}
+/* line 124, ../sass/header.scss */
+.home .center .active {
+  background-color: #ececec;
+  color: #000;
+  opacity: 1;
+  transition: 2s;
+}
+
+/* line 133, ../sass/header.scss */
+.animate {
+  -webkit-transition: 0.5s linear all;
+  -moz-transition: 0.5s linear all;
+  -o-transition: 0.5s linear all;
+  transition: 0s linear all;
+}
+
+/* line 140, ../sass/header.scss */
+.animate.ng-hide-add,
+.animate.ng-hide-remove {
+  display: block !important;
+}
+
+/* line 145, ../sass/header.scss */
+.animate.ng-hide-remove.ng-hide-remove-active,
+.animate.ng-hide-add {
+  width: 500px;
+}
+
+/* line 149, ../sass/header.scss */
+.animate.ng-hide-add.ng-hide-add-active,
+.animate.ng-hide-remove {
+  width: 0;
+}
+
+/* line 155, ../sass/header.scss */
+.top {
+  margin-left: -19% !important;
+  margin-right: 37% !important;
+}
+
+/* line 159, ../sass/header.scss */
+.alogo {
+  float: right;
+  background-image: url("/img/doctor-logo.jpg");
+  background-position: 55% 0%;
+  background-repeat: no-repeat;
+  background-size: 68%;
+  width: 49%;
+  height: 81px;
+  cursor: pointer;
+  margin-right: -122px;
+}
+
+/* line 170, ../sass/header.scss */
+.hlogo {
+  display: inline-block;
+  background-image: url("/img/HP-bg.jpg");
+  height: 100%;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+}
+
+/* line 177, ../sass/header.scss */
+.hcenter {
+  width: 100%;
+}

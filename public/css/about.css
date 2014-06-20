@@ -1,0 +1,26 @@
+/* line 2, ../sass/about.scss */
+.about-page .logo {
+  height: 110px;
+  background-image: url("/img/big-logo-HP.png");
+  background-position: 50% 55%;
+  background-repeat: no-repeat;
+  background-size: 25%;
+}
+/* line 9, ../sass/about.scss */
+.about-page .title {
+  color: #4A4A4A;
+  font-size: 33px;
+  font-family: topdoc-bold;
+  text-align: center;
+}
+/* line 15, ../sass/about.scss */
+.about-page .txt {
+  max-width: 850px;
+  margin: 0 auto;
+  width: 100%;
+  margin-top: 15px;
+  direction: rtl;
+  font-family: topdoc-regular;
+  font-size: 14px;
+  line-height: 22px;
+}
